@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 1040px) {
     main {
         width: 100%;
 
@@ -28,7 +28,7 @@
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 760px) {
     header {
         flex-direction: column;
         align-items: center;
