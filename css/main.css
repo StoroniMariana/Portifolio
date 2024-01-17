@@ -8,6 +8,7 @@ main {
 main .main-content {
     display: flex;
     flex-direction: column;
+    
 }
 
 main .main-content h2 {
@@ -29,6 +30,7 @@ main .main-content .text p{
 main .techs .cards-container {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 main .techs .cards-container .cards {
@@ -39,6 +41,7 @@ main .techs .cards-container .cards {
     border-radius: 8px;
     margin-right: 0.9em;
     margin-left: 0.9em;
+    margin-bottom: 0.9em;
     cursor: pointer;
     display: flex;
     align-items: center;

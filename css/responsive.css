@@ -15,7 +15,7 @@
     }
 
     main .main-content .text, .techs {
-        text-align: center;
+        text-align: justify;
     }
 
     main .main-content .text p {
@@ -55,9 +55,11 @@
 
     main .main-content .text h2, .main-content .techs h2 {
         font-size: 1.8em;
+
     }
 
     main figure img {
+        flex-wrap: wrap;
         width: 250px;
         height: 250px;
     }
